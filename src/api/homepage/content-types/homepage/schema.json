@@ -12,8 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
-      "type": "string"
+    "mainHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.hero"
+    },
+    "mainSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.section"
     }
   }
 }
